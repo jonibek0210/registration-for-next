@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #111827;
+   min-height: 100% !important;
+}
+
+ul,
+ol,
+li {
+   list-style: none;
+}
+
+/* @media (max-width: 1536px) {
+   .sectionOne {
+      padding: calc(100px + (320 - 100) * ((100vw - 320px) / (1536 - 320)));
+   }
+} */
