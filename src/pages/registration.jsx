@@ -8,7 +8,7 @@ const registration = () => {
 
    return (
       <div className="relative w-screen h-screen">
-         <button onClick={() => registration ? setRegistration(false) : setRegistration(true)} className="absolute top-[10%] left-1/4 text-gray-600 cursor-pointer"> &lt; {registration ? 'sign up' : 'regitr'}</button>
+         <button onClick={() => registration ? setRegistration(false) : setRegistration(true)} className="absolute top-[10%] left-1/4 text-gray-600 cursor-pointer"> &lt; {registration ? 'sign up' : 'registr'}</button>
 
          {
             registration ? <Register /> : <SignUp />
